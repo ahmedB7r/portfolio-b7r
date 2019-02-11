@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4} tablet={12}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/profile1.jpg?raw=true"
+                src="../img/profile.jpg"
                 alt="avatar"
                 className="avatar-img"
               />
@@ -24,7 +24,7 @@ class Resume extends Component {
             <p>
               I have in web field just 1.5 years ,learned in it alot of amazing
               things ,fastly like smart boy , becouse i love it since childhood
-              so i wil keep learning new technologies to reach my goal (make my
+              so i will keep learning new technologies to reach my goal (make my
               code is the standard to other developers)
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />

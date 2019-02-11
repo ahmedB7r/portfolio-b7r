@@ -85,7 +85,7 @@
 }
 
 .banner-text {
-  background-color: black;
+  background-color: #013;
   opacity: 0.8;
   width: 75%;
   margin: auto;
@@ -96,6 +96,7 @@
   font-size: 66px;
   font-weight: bold;
   color: white;
+  padding-top: 15px;
 }
 
 .banner-text hr {
@@ -117,6 +118,7 @@
   justify-content: space-between;
   width: 50%;
   margin: 0 auto;
+  padding-bottom: 12px;
 }
 
 .social-links i {
@@ -136,7 +138,13 @@
     width: 90%;
   }
 }
+
 @media (max-width: 575.98px) {
+  .avatar-img {
+    height: 220px;
+    width: 220px;
+    margin-bottom: 2em;
+  }
   .small-font {
     font-size: 18px;
   }
@@ -144,11 +152,17 @@
     width: 90%;
   }
   .banner-text h1 {
-    font-size: 40px;
+    font-size: 35px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
   }
   .social-links i {
     font-size: 3em;
     padding: 5px;
     padding-bottom: 10px;
+  }
+  .banner-text p {
+    font-size: 16px;
   }
 }
