@@ -1,0 +1,79 @@
+import React, { Component } from "react";
+import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+
+class Contact extends Component {
+  render() {
+    return (
+      <div className="contact-body">
+        <Grid className="contact-grid">
+          <Cell col={6}>
+            <h2> Ahmed magdy</h2>
+            <img
+              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              alt="avatar"
+              style={{ height: "250px" }}
+            />
+          </Cell>
+          <Cell col={6}>
+            <h2>Contact Me</h2>
+            <hr />
+
+            <div className="contact-list">
+              <List>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-phone-square" aria-hidden="true" />
+                    <a
+                      className="small-font"
+                      style={{ textDecoration: "none" }}
+                      href="tel:+201026462262"
+                    >
+                      +201026462262
+                    </a>
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-envelope" aria-hidden="true" />
+                    <a
+                      className="small-font"
+                      style={{ textDecoration: "none" }}
+                      href="mailto:ahmedmagdyb7r@gmail.com?Subject=Hello%20again"
+                      target="_top"
+                    >
+                      ahmedmagdyb7r
+                    </a>
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-facebook-square" aria-hidden="true" />
+                    <a
+                      className="small-font"
+                      style={{ textDecoration: "none", paddingLeft: "10px" }}
+                      href="https://www.facebook.com/profile.php?id=100007002766469"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Ahmed magdy
+                    </a>
+                  </ListItemContent>
+                </ListItem>
+              </List>
+            </div>
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
+}
+
+export default Contact;
