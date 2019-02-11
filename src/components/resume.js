@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4} tablet={12}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="../img/profile1.jpg"
+                src="https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/profile1.jpg?raw=true"
                 alt="avatar"
                 className="avatar-img"
               />

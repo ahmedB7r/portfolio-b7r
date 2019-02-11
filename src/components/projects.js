@@ -31,7 +31,8 @@ class Projects extends Component {
                   style={{
                     color: "#292e49",
                     height: "400px",
-                    background: "url(../img/devolum.png) top / cover"
+                    background:
+                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/devolum.png?raw=true) top / cover"
                   }}
                 >
                   Devolum lab
@@ -63,7 +64,8 @@ class Projects extends Component {
                   style={{
                     color: "#292e49",
                     height: "400px",
-                    background: "url(../img/humyum.png) top / cover"
+                    background:
+                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/humyum.png?raw=true) top / cover"
                   }}
                 >
                   Humyum
@@ -95,7 +97,8 @@ class Projects extends Component {
                   style={{
                     color: "#292e49",
                     height: "400px",
-                    background: "url(../img/Bennu.png) top / cover"
+                    background:
+                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/Bennu.png?raw=true) top / cover"
                   }}
                 >
                   Bennu
@@ -134,7 +137,8 @@ class Projects extends Component {
                   style={{
                     color: "#292e49",
                     height: "300px",
-                    background: "url(../img/miniface.png) top / cover"
+                    background:
+                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/miniface.png?raw=true) top / cover"
                   }}
                 >
                   miniFace
