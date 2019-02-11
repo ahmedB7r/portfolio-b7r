@@ -2,7 +2,7 @@
   "name": "b7r",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ahmedB7r.github.io/B7r",
+  "homepage": "http://ahmedB7r.github.io/portfolio-b7r",
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
@@ -26,5 +26,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
