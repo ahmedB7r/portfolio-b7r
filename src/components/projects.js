@@ -31,7 +31,7 @@ class Projects extends Component {
                   style={{
                     color: "#292e49",
                     height: "400px",
-                    background: "url(img/devolum.png) top / cover"
+                    background: "url(../img/devolum.png) top / cover"
                   }}
                 >
                   Devolum lab
@@ -63,7 +63,7 @@ class Projects extends Component {
                   style={{
                     color: "#292e49",
                     height: "400px",
-                    background: "url(img/humyum.png) top / cover"
+                    background: "url(../img/humyum.png) top / cover"
                   }}
                 >
                   Humyum
@@ -77,9 +77,9 @@ class Projects extends Component {
                       rel="noopener noreferrer"
                       target="_blank"
                       style={{ textDecoration: "none" }}
-                      href="http://front.devolum.com/our"
+                      href="#"
                     >
-                      Check it
+                      Soon..
                     </a>
                   </Button>
                 </CardActions>
@@ -95,7 +95,7 @@ class Projects extends Component {
                   style={{
                     color: "#292e49",
                     height: "400px",
-                    background: "url(img/Bennu.png) top / cover"
+                    background: "url(../img/Bennu.png) top / cover"
                   }}
                 >
                   Bennu
@@ -134,7 +134,7 @@ class Projects extends Component {
                   style={{
                     color: "#292e49",
                     height: "300px",
-                    background: "url(img/miniface.png) top / cover"
+                    background: "url(../img/miniface.png) top / cover"
                   }}
                 >
                   miniFace

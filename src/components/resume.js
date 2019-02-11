@@ -11,7 +11,11 @@ class Resume extends Component {
         <Grid>
           <Cell col={4} tablet={12}>
             <div style={{ textAlign: "center" }}>
-              <img src="img/profile1.jpg" alt="avatar" className="avatar-img" />
+              <img
+                src="../img/profile1.jpg"
+                alt="avatar"
+                className="avatar-img"
+              />
             </div>
 
             <h2 style={{ paddingTop: "1em" }}>Ahmed magdy</h2>
