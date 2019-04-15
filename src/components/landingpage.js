@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "auto",height:"100%" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
@@ -13,14 +13,13 @@ class Landing extends Component {
             />
 
             <div className="banner-text">
-              <h1>Front-End Web Developer</h1>
+              <h1>Full-satck Web Developer</h1>
 
               <hr />
 
               <p>
-                HTML/CSS | CSS Grid/Flex | SCSS | Bootstrap/Materialize |
-                JavaScript | Jquery | AJAX | GSAP(Greensock) | React | redux |
-                Axios | Firebase | Wordpress | Git
+                HTML5/CSS3 | CSS Grid/Flex | SCSS | Bootstrap/Materialize |
+                JavaScript | Jquery | AJAX | GSAP(Greensock) | React/redux | Firebase | nodejs(Express) | Mongo DB | Wordpress/Woocommerce | Git
               </p>
 
               <div className="social-links">

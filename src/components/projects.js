@@ -46,7 +46,7 @@ class Projects extends Component {
                       rel="noopener noreferrer"
                       target="_blank"
                       style={{ textDecoration: "none" }}
-                      href="http://front.devolum.com/our/"
+                      href="https://devolum.com/"
                     >
                       Check it
                     </a>
@@ -79,9 +79,9 @@ class Projects extends Component {
                       rel="noopener noreferrer"
                       target="_blank"
                       style={{ textDecoration: "none" }}
-                      href="#"
+                      href="https://ahmedb7r.github.io/humyum/"
                     >
-                      Soon..
+                       Check it
                     </a>
                   </Button>
                 </CardActions>
@@ -167,7 +167,7 @@ class Projects extends Component {
           </Grid>
         </div>
       );
-    }
+    } 
   }
 
   render() {
@@ -178,8 +178,9 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Wordpress</Tab>
-          <Tab>React</Tab>
+          <Tab>Html / Wordpress</Tab>
+          <Tab>React / Firebase</Tab>
+
         </Tabs>
 
         <Grid>

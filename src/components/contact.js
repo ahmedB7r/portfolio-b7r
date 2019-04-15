@@ -24,7 +24,7 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
+                    <i className="fa fa-phone" aria-hidden="true" />
                     <a
                       className="small-font"
                       style={{ textDecoration: "none" }}
@@ -55,10 +55,11 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-facebook-square" aria-hidden="true" />
+                  
+                    <i className="fa fa-facebook  " aria-hidden="true" />
                     <a
-                      className="small-font"
-                      style={{ textDecoration: "none", paddingLeft: "10px" }}
+                      className="small-font "
+                      style={{ textDecoration: "none", paddingLeft: "30px" }}
                       href="https://www.facebook.com/profile.php?id=100007002766469"
                       rel="noopener noreferrer"
                       target="_blank"
