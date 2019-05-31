@@ -10,7 +10,7 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4} tablet={12}>
-            <div style={{ textAlign: "center" }}>
+            <div style={{}}>
               <img
                 src="https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/profile.jpg?raw=true"
                 alt="avatar"
@@ -23,7 +23,7 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
               I have in web field just 2 years ,learned in it alot of amazing
-              things ,fastly like smart boy , becouse i love it since childhood
+              things ,fastly like smart boy , because i love it since childhood
               so i will keep learning new technologies to reach my goal (make my
               code is the standard to other developers)
             </p>
@@ -67,18 +67,25 @@ class Resume extends Component {
               jobName=" Devolum labs"
               jobDescription=" I was working as psd to html at first , then lerarned animation , then worked as a wordpress front-end "
             />
-    <Experience
+            <Experience
               startYear={"1 / 2019"}
               endYear={"4 / 2019"}
               jobName=" Awamer elshabka"
               jobDescription=" I was working as wordpress developer at first , then lerarned nodejs to make shift to mern stack developer  "
             />
+            <Experience
+              startYear={"4 / 2019"}
+              endYear={"present"}
+              jobName="Freelancer"
+              jobDescription=" I'm working now as mern stack developer in UpWork  "
+            />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
             <Skills skill="javascript" progress={80} />
-            <Skills skill="HTML/CSS" progress={80} />
-            <Skills skill="React/Redux" progress={65} />
-            <Skills skill="Nodejs(Express)" progress={60} />
+            <Skills skill="HTML/CSS" progress={90} />
+            <Skills skill="React/Redux" progress={85} />
+            <Skills skill="React Native" progress={50} />
+            <Skills skill="Nodejs" progress={80} />
             <Skills skill="Wordpress" progress={70} />
           </Cell>
         </Grid>

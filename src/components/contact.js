@@ -56,7 +56,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                   
-                    <i className="fa fa-facebook  " aria-hidden="true" />
+                    <i className="fab fa-facebook  " aria-hidden="true" />
                     <a
                       className="small-font "
                       style={{ textDecoration: "none", paddingLeft: "30px" }}

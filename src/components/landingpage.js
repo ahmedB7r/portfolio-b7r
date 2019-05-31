@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto",height:"100%" }}>
+      <div style={{ width: "100%", margin: "auto", height: "100%" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
@@ -19,17 +19,19 @@ class Landing extends Component {
 
               <p>
                 HTML5/CSS3 | CSS Grid/Flex | SCSS | Bootstrap/Materialize |
-                JavaScript | Jquery | AJAX | GSAP(Greensock) | React/redux | Firebase | nodejs(Express) | Mongo DB | Wordpress/Woocommerce | Git
+                JavaScript | Jquery | GSAP(Greensock) | React/redux | React
+                Native |Firebase | nodejs(Express) | Mongo DB |
+                Wordpress/Woocommerce | Git
               </p>
 
-              <div className="social-links">
+              <div className="socialss">
                 {/* LinkedIn */}
                 <a
                   href="https://www.linkedin.com/in/ahmed-magdy-b54b09179/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                  <i className="fab fa-linkedin" />
                 </a>
 
                 {/* Github */}
@@ -38,7 +40,7 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  <i className="fab fa-github" />
                 </a>
 
                 {/* Freecodecamp */}
@@ -47,16 +49,16 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-free-code-camp" aria-hidden="true" />
+                  <i className="fab fa-free-code-camp" />
                 </a>
 
-                {/* Youtube */}
+                {/* facebook */}
                 <a
                   href="https://www.facebook.com/profile.php?id=100007002766469"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-facebook-square" aria-hidden="true" />
+                  <i className="fab fa-facebook" />
                 </a>
               </div>
             </div>
