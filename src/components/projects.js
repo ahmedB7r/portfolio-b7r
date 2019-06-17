@@ -81,7 +81,7 @@ class Projects extends Component {
                       style={{ textDecoration: "none" }}
                       href="https://ahmedb7r.github.io/humyum/"
                     >
-                       Check it
+                      Check it
                     </a>
                   </Button>
                 </CardActions>
@@ -130,7 +130,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Grid>
+          {/* <Grid>
             <Cell col={6} tablet={12}>
               <Card shadow={5} style={{ minWidth: "100%", margin: "auto" }}>
                 <CardTitle
@@ -164,10 +164,10 @@ class Projects extends Component {
                 </CardMenu>
               </Card>
             </Cell>
-          </Grid>
+          </Grid> */}
         </div>
       );
-    } 
+    }
   }
 
   render() {
@@ -179,8 +179,7 @@ class Projects extends Component {
           ripple
         >
           <Tab>Html / Wordpress</Tab>
-          <Tab>React / Firebase</Tab>
-
+          {/* <Tab>React / Firebase</Tab> */}
         </Tabs>
 
         <Grid>

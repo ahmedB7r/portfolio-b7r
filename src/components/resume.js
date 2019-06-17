@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4} tablet={12}>
             <div style={{}}>
               <img
-                src="https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/profile.jpg?raw=true"
+                src="https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/profile1.jpg?raw=true"
                 alt="avatar"
                 className="avatar-img"
               />
@@ -22,10 +22,10 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              I have in web field just 2 years ,learned in it alot of amazing
-              things ,fastly like smart boy , because i love it since childhood
-              so i will keep learning new technologies to reach my goal (make my
-              code is the standard to other developers)
+              I have in the web field just 2 years, learned in it a lot of
+              amazing things fastly because I have a huge goal in limited time
+              so I will keep learning new technologies to reach my goal ( make
+              my code is the standard to other developers. )
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
 
@@ -65,28 +65,27 @@ class Resume extends Component {
               startYear={"8 / 2018"}
               endYear={"1 / 2019"}
               jobName=" Devolum labs"
-              jobDescription=" I was working as psd to html at first , then lerarned animation , then worked as a wordpress front-end "
+              jobDescription=" I was working as a psd to html (pixel perfect) at first , then lerarned animation , then worked as a wordpress dev "
             />
             <Experience
               startYear={"1 / 2019"}
               endYear={"4 / 2019"}
               jobName=" Awamer elshabka"
-              jobDescription=" I was working as wordpress developer at first , then lerarned nodejs to make shift to mern stack developer  "
+              jobDescription=" I was working as a wordpress developer at first , then lerarned nodejs to make shift to mern stack developer  "
             />
             <Experience
               startYear={"4 / 2019"}
               endYear={"present"}
               jobName="Freelancer"
-              jobDescription=" I'm working now as mern stack developer in UpWork  "
+              jobDescription=" I'm working now as a mern stack developer in UpWork  "
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
-            <Skills skill="javascript" progress={80} />
-            <Skills skill="HTML/CSS" progress={90} />
-            <Skills skill="React/Redux" progress={85} />
-            <Skills skill="React Native" progress={50} />
-            <Skills skill="Nodejs" progress={80} />
-            <Skills skill="Wordpress" progress={70} />
+            <Skills skill="HTML/CSS" progress={95} />
+            <Skills skill="Reactjs" progress={90} />
+            <Skills skill="Nodejs" progress={87} />
+            <Skills skill="Wordpress" progress={75} />
+            <Skills skill="React Native" progress={60} />
           </Cell>
         </Grid>
       </div>

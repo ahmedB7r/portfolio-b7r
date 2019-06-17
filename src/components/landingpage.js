@@ -4,10 +4,10 @@ class Landing extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto", height: "100%" }}>
-        <Grid className="landing-grid">
+        <Grid className="landing-grid ">
           <Cell col={12}>
             <img
-              src="https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/profile1.jpg?raw=true"
+              src="https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/profile.jpg?raw=true"
               alt="avatar"
               className="avatar-img"
             />
@@ -16,12 +16,17 @@ class Landing extends Component {
               <h1>Full-satck Web Developer</h1>
 
               <hr />
-
+              <h2 className="skills-header"> front-end skills </h2>
               <p>
-                HTML5/CSS3 | CSS Grid/Flex | SCSS | Bootstrap/Materialize |
-                JavaScript | Jquery | GSAP(Greensock) | React/redux | React
-                Native |Firebase | nodejs(Express) | Mongo DB |
-                Wordpress/Woocommerce | Git
+                HTML/CSS | HTML5/CSS3 | CSS Grid/Flex | SCSS |
+                Bootstrap/Materialize | Jquery | GSAP(Animation) |
+                JavaScript(ES6) | Reactjs(nextjs) / hooks-redux | Apollo | React
+                Native
+              </p>
+              <h2 className="skills-header"> back-end skills </h2>
+              <p>
+                nodejs(Express) | Firebase | Mongo DB | REST-GraphQL |
+                PostgreSQL DB | Prisma | Wordpress/Woocommerce | Git(Github)
               </p>
 
               <div className="socialss">
