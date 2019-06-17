@@ -165,11 +165,11 @@
   .banner-text p {
     font-size: 16px;
   }
+  .banner-text {
+    width: 85%;
+  }
 }
-.container {
-  margin: 0 auto;
-  padding: 10px 20px;
-}
+
 .skills-header {
   color: #fff;
   margin: 10px 0 0 0;
