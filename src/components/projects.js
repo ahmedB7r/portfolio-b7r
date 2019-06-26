@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import download from "../static"
 import {
   Tabs,
   Tab,
@@ -34,11 +33,20 @@ class Projects extends Component {
                   color: "#292e49",
                   height: "300px",
                   background:
-                    'url(${download}) top / cover'
+                    "  url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/download.png?raw=true) top / cover"
                 }}
               >
-                Hi ( Developer Connector    )
               </CardTitle>
+              <CardTitle
+              style={{
+                color: "#292e49",
+                marginBottom: "0",
+                paddingBottom: "0"
+
+               }}
+            >
+              Hi ( Developer Connector    )
+            </CardTitle>
               <CardText>
                 it is a mini-Social network for developers use in it (reactjs(CRA) - Express-Mongoose - passport-jwt)
                 that is the basic of MERN Stack App you can [auth(log in - sign up) - make profile - post ,comment and like ] 
