@@ -20,13 +20,15 @@ class Landing extends Component {
               <p>
                 HTML/CSS | HTML5/CSS3 | CSS Grid/Flex | SCSS |
                 Bootstrap/Materialize | Jquery | GSAP(Animation) |
-                JavaScript(ES6) | React js(nextjs - Gatsby - CRA) | react-hooks - redux - Apollo-link-state | Apollo-client |
+                JavaScript(ES6) | styled component | React js(nextjs - Gatsby -
+                CRA) | react-hooks - redux - Apollo-link-state | Apollo-client |
                 React Native
               </p>
               <h2 className="skills-header"> back-end skills </h2>
               <p>
-                nodejs(Express) | graphql-yoga | Firebase | Mongo DB | REST-GraphQL |
-                PostgreSQL DB | Prisma | Wordpress/Woocommerce | Git(Github)
+                nodejs(Express) | graphql-yoga | Firebase | Mongo DB |
+                REST-GraphQL | PostgreSQL DB | Prisma | stripe |
+                Wordpress/Woocommerce | Git(Github)
               </p>
 
               <div className="socialss">
