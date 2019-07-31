@@ -35,7 +35,7 @@ class Projects extends Component {
                     color: "#292e49",
                     height: "300px",
                     background:
-                      "  url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/favicon.png?raw=true) top / cover"
+                      "  url(https://raw.githubusercontent.com/ahmedB7r/portfolio-b7r/master/public/img/logo.png) top / cover"
                   }}
                 />
                 <CardTitle
