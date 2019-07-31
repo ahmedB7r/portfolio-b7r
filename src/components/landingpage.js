@@ -26,7 +26,7 @@ class Landing extends Component {
               </p>
               <h2 className="skills-header"> back-end skills </h2>
               <p>
-                nodejs(Express) | graphql-yoga | Firebase | Mongo DB |
+                nodejs(Express) | graphql-yoga | Firebase | Mongo DB | JWT |
                 REST-GraphQL | PostgreSQL DB | Prisma | stripe |
                 Wordpress/Woocommerce | Git(Github)
               </p>
