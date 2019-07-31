@@ -22,7 +22,7 @@ class Landing extends Component {
                 Bootstrap/Materialize | Jquery | GSAP(Animation) |
                 JavaScript(ES6) | styled component | React js(nextjs - Gatsby -
                 CRA) | react-hooks - redux - Apollo-link-state | Apollo-client |
-                React Native
+                React Native | webpack 4
               </p>
               <h2 className="skills-header"> back-end skills </h2>
               <p>

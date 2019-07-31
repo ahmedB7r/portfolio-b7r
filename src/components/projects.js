@@ -61,7 +61,7 @@ class Projects extends Component {
                       rel="noopener noreferrer"
                       target="_blank"
                       style={{ textDecoration: "none" }}
-                      href="https://b7r-store-next.herokuapp.com"
+                      href="https://store-b7r.ahmedmagdyb7r.now.sh"
                     >
                       Check it
                     </a>
