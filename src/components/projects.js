@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import {
   Tabs,
   Tab,
@@ -10,13 +10,13 @@ import {
   CardActions,
   Button,
   CardMenu,
-  IconButton
+  IconButton,
 } from "react-mdl";
 
 class Projects extends Component {
   constructor(props) {
     super(props);
-    this.state = { activeTab: 0 };
+    this.state = {activeTab: 0};
   }
 
   toggleCategories() {
@@ -28,40 +28,40 @@ class Projects extends Component {
             <Cell col={6} tablet={12}>
               <Card
                 shadow={5}
-                style={{ minHeight: "100%", minWidth: "100%", margin: "auto" }}
+                style={{minHeight: "100%", minWidth: "100%", margin: "auto"}}
               >
                 <CardTitle
                   style={{
                     color: "#292e49",
                     height: "300px",
                     background:
-                      "  url(https://raw.githubusercontent.com/ahmedB7r/portfolio-b7r/master/public/img/logo.png) top / cover"
+                      "  url(https://www.b7r.store/static/images/NewUpdatedLogo.svg) no-repeat center / contain ",
                   }}
                 />
                 <CardTitle
                   style={{
                     color: "#292e49",
                     marginBottom: "0",
-                    paddingBottom: "0"
+                    paddingBottom: "0",
                   }}
                 >
-                  Store! ( eCommerce )
+                  B7R STORE (SAAS)
                 </CardTitle>
                 <CardText>
-                  it is an eCommerce site use in it (reactjs(Nextjs) -
-                  apollo-client - styled component - graphql-yoga (server) -
-                  PostgreSQL DB - Prisma - stripe - jwt ) that is the best of
-                  the MERN Stack technologies [ auth (log in - sign up - reset
-                  password) - permission system - products - orders - cart -
-                  search and more ]
+                  it is an eCommerce Provider like (shopify) use in it
+                  (reactjs(Nextjs) - apollo-client - styled component - tailwind
+                  - Apollo-server (server) - PostgreSQL DB - Prisma - stripe -
+                  jwt ) that is the best of the MERN Stack technologies [ auth
+                  (log in - sign up - reset password) - permission system -
+                  products - orders - cart - search and more ]
                 </CardText>
                 <CardActions border>
                   <Button colored>
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
-                      href="https://store-b7r.ahmedmagdyb7r.now.sh"
+                      style={{textDecoration: "none"}}
+                      href="https://www.b7r.store/"
                     >
                       Check it
                     </a>
@@ -73,21 +73,21 @@ class Projects extends Component {
             <Cell col={6} tablet={12}>
               <Card
                 shadow={5}
-                style={{ minHeight: "100%", minWidth: "100%", margin: "auto" }}
+                style={{minHeight: "100%", minWidth: "100%", margin: "auto"}}
               >
                 <CardTitle
                   style={{
                     color: "#292e49",
                     height: "300px",
                     background:
-                      "  url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/download.png?raw=true) top / cover"
+                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/download.png?raw=true) no-repeat center / contain",
                   }}
                 />
                 <CardTitle
                   style={{
                     color: "#292e49",
                     marginBottom: "0",
-                    paddingBottom: "0"
+                    paddingBottom: "0",
                   }}
                 >
                   Hi ( Developer Connector )
@@ -101,14 +101,14 @@ class Projects extends Component {
                 <CardActions
                   border
                   style={{
-                    marginTop: "35px"
+                    marginTop: "35px",
                   }}
                 >
                   <Button colored>
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
+                      style={{textDecoration: "none"}}
                       href="https://hi-socialll.herokuapp.com/"
                     >
                       Check it
@@ -126,13 +126,13 @@ class Projects extends Component {
           {/* Project 1 */}
           <Grid>
             <Cell col={6} tablet={12}>
-              <Card shadow={5} style={{ minWidth: "100%", margin: "auto" }}>
+              <Card shadow={5} style={{minWidth: "100%", margin: "auto"}}>
                 <CardTitle
                   style={{
                     color: "#292e49",
                     height: "400px",
                     background:
-                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/devolum.png?raw=true) top / cover"
+                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/devolum.png?raw=true) no-repeat center / contain",
                   }}
                 >
                   Devolum lab
@@ -145,27 +145,27 @@ class Projects extends Component {
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
+                      style={{textDecoration: "none"}}
                       href="https://devolum.com/"
                     >
                       Check it
                     </a>
                   </Button>
                 </CardActions>
-                <CardMenu style={{ color: "#fff" }}>
+                <CardMenu style={{color: "#fff"}}>
                   <IconButton name="share" />
                 </CardMenu>
               </Card>
             </Cell>
             <Cell col={6} tablet={12}>
               {/* Project 2 */}
-              <Card shadow={5} style={{ minWidth: "100%", margin: "auto" }}>
+              <Card shadow={5} style={{minWidth: "100%", margin: "auto"}}>
                 <CardTitle
                   style={{
                     color: "#292e49",
                     height: "400px",
                     background:
-                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/humyum.png?raw=true) top / cover"
+                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/humyum.png?raw=true) no-repeat center / contain",
                   }}
                 >
                   Humyum
@@ -178,7 +178,7 @@ class Projects extends Component {
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
+                      style={{textDecoration: "none"}}
                       href="https://ahmedb7r.github.io/humyum/"
                     >
                       Check it
@@ -189,13 +189,13 @@ class Projects extends Component {
             </Cell>
             <Cell col={6} tablet={12}>
               {/* Project 3 */}
-              <Card shadow={5} style={{ minWidth: "100%", margin: "auto" }}>
+              <Card shadow={5} style={{minWidth: "100%", margin: "auto"}}>
                 <CardTitle
                   style={{
                     color: "#292e49",
                     height: "400px",
                     background:
-                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/Bennu.png?raw=true) top / cover"
+                      "url(https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/Bennu.png?raw=true) no-repeat center / contain",
                   }}
                 >
                   Bennu
@@ -208,7 +208,7 @@ class Projects extends Component {
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
+                      style={{textDecoration: "none"}}
                       href="http://front.devolum.com/beenu"
                     >
                       Check it
@@ -228,7 +228,7 @@ class Projects extends Component {
       <div>
         <Tabs
           activeTab={this.state.activeTab}
-          onChange={tabId => this.setState({ activeTab: tabId })}
+          onChange={(tabId) => this.setState({activeTab: tabId})}
           ripple
         >
           <Tab>React / Express</Tab>
