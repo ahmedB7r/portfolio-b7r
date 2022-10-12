@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import {Layout, Header, Navigation, Drawer, Content} from "react-mdl";
 import Main from "./components/main";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
             className="header-color"
             title={
               <Link
-                style={{ textDecoration: "none", color: "white" }}
+                style={{textDecoration: "none", color: "white"}}
                 to="/portfolio-b7r"
               >
                 B7R
@@ -30,7 +30,7 @@ class App extends Component {
           <Drawer
             title={
               <Link
-                style={{ textDecoration: "none", color: "black" }}
+                style={{textDecoration: "none", color: "black"}}
                 to="/portfolio-b7r/"
               >
                 B7R
