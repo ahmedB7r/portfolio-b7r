@@ -24,7 +24,7 @@ class Resume extends Component {
             <h4 style={{color: "grey"}}>Programmer</h4>
             <hr style={{borderTop: "3px solid #833fb2", width: "50%"}} />
             <p>
-              I have in the web field just 5 years, learned in it a lot of
+              I have in the web field 5 years now, learned in it a lot of
               amazing things fastly because I have a huge goal in limited time
               so I will keep learning new technologies to reach my goal ( make
               my code is the standard to other developers. )
