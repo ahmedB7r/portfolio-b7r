@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import React, {Component} from "react";
+import {Grid, Cell, List, ListItem, ListItemContent} from "react-mdl";
 
 class Contact extends Component {
   render() {
@@ -9,9 +9,10 @@ class Contact extends Component {
           <Cell col={6}>
             <h2> Ahmed magdy</h2>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              // src="https://res.cloudinary.com/dp5tdylzs/image/upload/v1665537016/jwf56xygsnfnupku4pju.jpg"
+              src="https://res.cloudinary.com/dp5tdylzs/image/upload/v1665537016/jwf56xygsnfnupku4pju.jpg"
               alt="avatar"
-              style={{ height: "250px" }}
+              style={{height: "250px"}}
             />
           </Cell>
           <Cell col={6}>
@@ -22,12 +23,12 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{fontSize: "30px", fontFamily: "Anton"}}
                   >
                     <i className="fa fa-phone" aria-hidden="true" />
                     <a
                       className="small-font"
-                      style={{ textDecoration: "none" }}
+                      style={{textDecoration: "none"}}
                       href="tel:+201026462262"
                     >
                       +201026462262
@@ -37,12 +38,12 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{fontSize: "30px", fontFamily: "Anton"}}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
                     <a
                       className="small-font"
-                      style={{ textDecoration: "none" }}
+                      style={{textDecoration: "none"}}
                       href="mailto:ahmedmagdyb7r@gmail.com?Subject=Hello%20again"
                       target="_top"
                     >
@@ -53,13 +54,12 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{fontSize: "30px", fontFamily: "Anton"}}
                   >
-                  
                     <i className="fab fa-facebook  " aria-hidden="true" />
                     <a
                       className="small-font "
-                      style={{ textDecoration: "none", paddingLeft: "30px" }}
+                      style={{textDecoration: "none", paddingLeft: "30px"}}
                       href="https://www.facebook.com/profile.php?id=100007002766469"
                       rel="noopener noreferrer"
                       target="_blank"
