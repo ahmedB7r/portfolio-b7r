@@ -83,7 +83,7 @@
 /* contact page css */
 
 .mdl-layout__drawer-button{
-  background: #21dfd2c9;
+  background-color: #21dfd2c9 !important;
   border-radius: 18%;
   color:#fff !important
 }
