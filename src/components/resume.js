@@ -64,7 +64,16 @@ class Resume extends Component {
               startYear={"1 / 2021"}
               endYear={"present"}
               jobName="B7r Store"
-              jobDescription=" I'm working now as a Tech-lead  at B7r Store(ecommerce as a service SAAS) "
+              jobDescription={
+                <>
+                  I'm working now as a Tech-lead at{" "}
+                  <a target={"_blank"} href="https://www.b7r.store">
+                    {" "}
+                    B7r Store
+                  </a>{" "}
+                  (ecommerce as a service SAAS)
+                </>
+              }
             />
             <Experience
               startYear={"6 / 2019"}

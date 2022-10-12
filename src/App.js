@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
-        <Layout>
+        <Layout fixedHeader>
           <Header
             className="header-color"
             title={
