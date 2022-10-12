@@ -13,7 +13,8 @@ class Resume extends Component {
           <Cell col={4} tablet={12}>
             <div style={{}}>
               <img
-                src="https://github.com/ahmedB7r/portfolio-b7r/blob/master/public/img/profile1.jpg?raw=true"
+                // src="https://scontent.fcai21-1.fna.fbcdn.net/v/t39.30808-6/273424977_3254201941489866_4595774763795433366_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=5lUeXbr86_sAX9OgegK&tn=uzyIMzvGl4qmi8dz&_nc_ht=scontent.fcai21-1.fna&oh=00_AT-6hyWOlKHbpmWVNATuVfDip6I4SOQ2HY6SJnk6g588_g&oe=634AF543"
+                src="https://scontent.fcai21-1.fna.fbcdn.net/v/t39.30808-6/273424977_3254201941489866_4595774763795433366_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=5lUeXbr86_sAX9OgegK&tn=uzyIMzvGl4qmi8dz&_nc_ht=scontent.fcai21-1.fna&oh=00_AT-6hyWOlKHbpmWVNATuVfDip6I4SOQ2HY6SJnk6g588_g&oe=634AF543"
                 alt="avatar"
                 className="avatar-img"
               />
@@ -23,7 +24,7 @@ class Resume extends Component {
             <h4 style={{color: "grey"}}>Programmer</h4>
             <hr style={{borderTop: "3px solid #833fb2", width: "50%"}} />
             <p>
-              I have in the web field just 2 years, learned in it a lot of
+              I have in the web field just 5 years, learned in it a lot of
               amazing things fastly because I have a huge goal in limited time
               so I will keep learning new technologies to reach my goal ( make
               my code is the standard to other developers. )
@@ -57,6 +58,41 @@ class Resume extends Component {
               schoolName="Computer and Control systems Engineering  Mansoura University"
               schoolDescription=" control systems engineering is an engineering discipline that applies automatic control theory to design systems with desired behaviors in control environments. The discipline of controls overlaps and is usually taught along with electrical engineering at many institutions around the world."
             />
+            <h2>Experience</h2>
+
+            <Experience
+              startYear={"1 / 2021"}
+              endYear={"present"}
+              jobName="B7r Store"
+              jobDescription=" I'm working now as a Tech-lead  at B7r Store(ecommerce as a service SAAS) "
+            />
+            <Experience
+              startYear={"6 / 2019"}
+              endYear={"1 / 2021"}
+              jobName="Cairo Tech"
+              jobDescription=" I worked as a mern stack developer in cairo-tech in maadi   "
+            />
+
+            <Experience
+              startYear={"4 / 2019"}
+              endYear={"6 / 2019"}
+              jobName="Freelancer"
+              jobDescription=" I worked for a while as a freelancer in UpWork  "
+            />
+            <Experience
+              startYear={"1 / 2019"}
+              endYear={"4 / 2019"}
+              jobName=" Awamer elshabka"
+              jobDescription=" I was working as a wordpress developer at first , then lerarned nodejs to make shift to mern stack developer  "
+            />
+            <Experience
+              startYear={"8 / 2018"}
+              endYear={"1 / 2019"}
+              jobName=" Devolum labs"
+              jobDescription=" I was working as a psd to html (pixel perfect) at first , then lerarned animation , then worked as a wordpress dev "
+            />
+            <hr style={{borderTop: "3px solid #e22947"}} />
+
             <h3>Courses</h3>
             <Grid>
               <Course
@@ -113,40 +149,7 @@ class Resume extends Component {
                 name="Advanced JavaScript Concepts"
               />
             </Grid>
-            <hr style={{borderTop: "3px solid #e22947"}} />
-            <h2>Experience</h2>
 
-            <Experience
-              startYear={"1 / 2021"}
-              endYear={"present"}
-              jobName="B7r Store"
-              jobDescription=" I'm working now as a CTO  of B7r Store(ecommerce as a service SAAS) "
-            />
-            <Experience
-              startYear={"6 / 2019"}
-              endYear={"1 / 2021"}
-              jobName="Cairo Tech"
-              jobDescription=" I worked as a mern stack developer in cairo tech in maadi   "
-            />
-
-            <Experience
-              startYear={"4 / 2019"}
-              endYear={"6 / 2019"}
-              jobName="Freelancer"
-              jobDescription=" I worked for a while as a freelancer in UpWork  "
-            />
-            <Experience
-              startYear={"1 / 2019"}
-              endYear={"4 / 2019"}
-              jobName=" Awamer elshabka"
-              jobDescription=" I was working as a wordpress developer at first , then lerarned nodejs to make shift to mern stack developer  "
-            />
-            <Experience
-              startYear={"8 / 2018"}
-              endYear={"1 / 2019"}
-              jobName=" Devolum labs"
-              jobDescription=" I was working as a psd to html (pixel perfect) at first , then lerarned animation , then worked as a wordpress dev "
-            />
             {/* <hr style={{ borderTop: '3px solid #e22947' }} />
             <h2>Skills</h2>
             <Skills skill='HTML/CSS' progress={95} />
